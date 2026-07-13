@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* nav section */
+nav{
+    margin-top: 12px !important;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.common-btn{
+    color: white;
+    background-color: #1D4ED8;
+    padding: 12px 41.5px;
+    border-radius: 10px;
+}
