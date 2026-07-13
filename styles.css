@@ -83,12 +83,29 @@ nav ul a{
 }
 
 .hero-btn-div{
-     margin-top: 633px;
-     margin-bottom: 79px;
+     margin-top: 585px;
 }
 
 
 /* speakers section */
+.pricing-spot{
+    text-align: center;
+}
+
+.pricing-spot h2{
+    color: #0D1B2A;
+    margin-top: 136px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.pricing-spot p{
+    color: #575757;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
 .container-h2 h2{
     font-size: 56px;
     font-weight: 700;
@@ -135,4 +152,82 @@ nav ul a{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+/* pricing section */
+
+.pricing-parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pricing-child{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.pricing-child li{
+    list-style: none;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pricing-child h2{
+    font-size: 44px;
+    color: #0D1B2A;
+    font-weight: bold;
+}
+
+.pricing-child .p{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.pricing-child .p2{
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.child-black{
+    background-color: #0D1B2A;
+}
+
+.child-black h2{
+    color: white;
+}
+
+.child-black .p{
+    color: #93C5FD;
+}
+
+.child-black li{
+    color: white;
+}
+
+.pricing-btn1{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    padding: 12px 107.83px;
+}
+
+.pricing-btn-blue{
+    background-color: #2563EB;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 107.83px;
+}
+
+.pricing-btn2{
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 12px 107.83px;
+}
+
 
