@@ -33,8 +33,10 @@ nav ul a{
 }
 
 .nav-btn{
+    font-size: 16px;
     color: white;
     background-color: #1D4ED8;
+    font-weight: bold;
     padding: 12px 41.5px;
     border-radius: 10px;
     border: none;
@@ -70,8 +72,10 @@ nav ul a{
 }
 
 .hero-btn{
+     font-size: 24px;
     color: white;
     background-color: #1D4ED8;
+    font-weight: bold;
     padding: 25px 62.5px;
     border-radius: 10px;
     border: none;
@@ -82,3 +86,53 @@ nav ul a{
      margin-top: 633px;
      margin-bottom: 79px;
 }
+
+
+/* speakers section */
+.container-h2 h2{
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.speakers-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.speakers-p-h img{
+    border-radius: 12px;
+}
+
+.speakers-p-h {
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-bottom: 32px;
+    padding: 15px;
+}
+
+.what-they-are{
+    font-size: 12px;
+    color: #2563EB;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.speakers-p-h h2{
+    font-size: 20px;
+    color: #0D1B2A;
+    font-weight: bold;
+
+}
+
+.what-they-do{
+    font-size: 14px;
+    color: #575757;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
