@@ -299,3 +299,31 @@ nav ul a {
     color: #6b7280;
     line-height: 1.7;
 }
+
+
+
+/* footer section */
+footer{
+    background-color: #0D1B2A;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon img{
+    margin-left: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
