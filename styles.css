@@ -32,9 +32,53 @@ nav ul a{
     text-decoration: none;
 }
 
-.common-btn{
+.nav-btn{
     color: white;
     background-color: #1D4ED8;
     padding: 12px 41.5px;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* hero section */
+.hero{
+    padding: 100px;
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 24.5px;
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 871px;
+}
+
+.hero h2{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.hero p{
+     color: white;
+     font-size: 22px;
+     font-weight: 400;
+}
+
+.hero-btn{
+    color: white;
+    background-color: #1D4ED8;
+    padding: 25px 62.5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-btn-div{
+     margin-top: 633px;
+     margin-bottom: 79px;
 }
