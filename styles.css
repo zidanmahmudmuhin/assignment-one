@@ -161,7 +161,8 @@ nav ul a {
 }
 
 .pricing-child {
-    border: 1px solid black;
+    border: 0px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
     border-radius: 12px;
     padding: 32px;
 }
@@ -172,6 +173,12 @@ nav ul a {
     color: #333333;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.dott{
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .pricing-child h2 {
