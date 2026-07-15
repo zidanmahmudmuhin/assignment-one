@@ -161,7 +161,7 @@ nav ul a {
 }
 
 .pricing-child {
-    border: 0px solid black;
+    /* border: 0px solid black; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
     border-radius: 12px;
     padding: 32px;
